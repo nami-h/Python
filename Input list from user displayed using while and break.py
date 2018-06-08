@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[23]:
-
 
 print("Enter price of items")
 pur=[] 
