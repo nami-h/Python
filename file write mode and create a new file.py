@@ -10,3 +10,13 @@ while lines:
     print(lines)
     lines=new_file.readline()
 new_file.close()
+
+
+plan=open('inner_planets.txt','w')
+plan.write("Mercury\nVenus\nEarth\nMars")
+plan.close()
+plan=open('inner_planets.txt','r')
+rick=plan.read()
+while rick:
+    print(rick)
+    rick=plan.read()
