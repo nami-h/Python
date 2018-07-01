@@ -8,6 +8,11 @@ seed=len(name)
 x=pi.seek(0)
 y=pi.seek(seed)                  # pointer placement  
 
+'''
+pil=pi.seek(seed+1)            #place pointer using seek
+print('pil', pil)
+'''
+
 if (y<=1):                          #single char name
     print("not a name")
     sys.exit("End of game")         #exit program
