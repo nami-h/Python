@@ -43,3 +43,39 @@ final=len(correct)
 x=final*20
 print("\n\nYour score: ", x)
 print("\nEnd of quiz")
+
+
+
+
+
+
+'''
+
+Output: 
+********************Quiz***********************
+Enter any 5 elements from the first 20 elements in the periodic table
+
+Enter element: neon
+Enter element: flourine
+Enter element: 
+Unacceptable input
+Enter element: Neon
+Neon  was already specified
+Enter element: Carbon
+
+Your response:  ['neon', 'flourine', 'carbon'] 
+
+neon  is in the list
+flourine  is not in the list
+carbon  is in the list
+
+
+Your correct responses:  ['neon', 'carbon']
+Your incorrect responses:  ['flourine']
+
+
+Your score:  40
+
+End of quiz
+
+'''
