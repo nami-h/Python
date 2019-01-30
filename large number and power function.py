@@ -1,0 +1,5 @@
+i=int(input())
+j=int(input())
+k=int(input())
+l=int(input())
+print(i**j+k**l)
