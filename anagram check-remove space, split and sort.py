@@ -1,8 +1,8 @@
-class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        s.replace(' ', '')
-        t.replace(' ', '')
-        s=s.split()
-        t=t.split()
-        if s.sort()==t.sort():
-            return True
+def anagram(s1,s2):
+    s1=s1.replace(" ", "").lower()
+    s2=s2.replace(" ", "").lower()
+    return sorted(s1)==sorted(s2)
+    
+print(anagram("Clint Eastwood", "Old West Action"))
+print(anagram("abba", "baba"))
+print(anagram("lem", "lw"))
