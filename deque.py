@@ -16,11 +16,11 @@ class Deque(object):
 
 d=Deque()
 print(d.isEmpty())
-print(d.addfront(6))
-print(d.addfront(True))
-print(d.addback(8))
-print(d.addback("dede"))
+d.addfront(6)
+d.addfront("fyf")
+d.addback(8)
+d.addback("dede")
 print(d.removefront())
 print(d.removerear())
+print(d.isEmpty())
 print(d.size())
-
