@@ -1,6 +1,6 @@
 class MinStack():
 
-    def __init__(self):
+    def __init__(self):                        #constructor type for initializing the sttributes of the class 
         self.items=[]
         
     def push(self, x: int) -> None:
