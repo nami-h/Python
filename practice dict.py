@@ -4,13 +4,10 @@ print(net_device)
 var1='vendor'
 net_device[var1]='Cisco'
 net_device['device_type']='ios'
-print(net_device)
 
 print(net_device['vendor'])
 net_device['vendor']='Juniper'  #change value of key
-print(net_device)
 net_device2=net_device  #copying dict 
-print(net_device2)
 net_device3=net_device   #another dict copy 
 print(net_device3 is net_device2)  #check true or false
 print(net_device3==net_device) #check true or false
@@ -22,12 +19,9 @@ print(net_device.get('model',999)) #initializing new key value pair
 
 print(dir(net_device2))  
 net_device4=net_device.copy() #making copy 
-print(net_device4)
 print(net_device4 is net_device) #not identical
 net_device['model']=998
-print(net_device)
 print(net_device.pop('model')) #popping values
-print(net_device)
 net_device2={'model':551} #change entire dict
 print(net_device2)
 net_device.update(net_device2) #update 
